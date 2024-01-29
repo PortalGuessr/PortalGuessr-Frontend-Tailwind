@@ -1,0 +1,9 @@
+@layer components {
+  .input-primary {
+    @apply p-2 text-white shadow-lg bg-primary placeholder:text-lg placeholder:text-neutral-400;
+  }
+
+  .input-secondary {
+    @apply p-2 text-white shadow-lg bg-secondary placeholder:text-lg placeholder:text-neutral-400;
+  }
+}

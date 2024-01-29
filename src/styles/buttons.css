@@ -1,0 +1,30 @@
+/* Button variants. */
+@layer components {
+  .button-primary {
+    @apply p-2 text-white shadow-lg bg-primary hover:text-primary hover:bg-white;
+  }
+
+  .button-secondary {
+    @apply p-2 text-white shadow-lg bg-secondary hover:text-secondary hover:bg-white;
+  }
+
+  .button-success {
+    @apply p-2 text-white shadow-lg bg-success hover:text-success hover:bg-white;
+  }
+
+  .button-danger {
+    @apply p-2 text-white shadow-lg bg-danger hover:text-danger hover:bg-white;
+  }
+
+  .button-warning {
+    @apply p-2 text-white shadow-lg bg-warning hover:text-warning hover:bg-white;
+  }
+
+  .button-info {
+    @apply p-2 text-white shadow-lg bg-info hover:text-info hover:bg-white;
+  }
+
+  .button-accent {
+    @apply p-2 text-white shadow-lg bg-accent hover:text-accent hover:bg-white;
+  }
+}

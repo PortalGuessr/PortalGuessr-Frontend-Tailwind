@@ -1,0 +1,15 @@
+/* Google Font. */
+@import url("https://fonts.googleapis.com/css2?family=Sixtyfour&family=Workbench&display=swap");
+
+/* Applying fonts. */
+@import "./styles/fonts.css";
+
+/* CSS classes with Tailwind's @apply directive. */
+@import "./styles/buttons.css";
+@import "./styles/inputs.css";
+@import "./styles/links.css";
+
+/* Tailwind. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

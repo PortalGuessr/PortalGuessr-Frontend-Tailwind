@@ -1,0 +1,30 @@
+/* Link variants. */
+@layer components {
+  .link-primary {
+    @apply underline shadow text-primary underline-offset-2 hover:text-white;
+  }
+
+  .link-secondary {
+    @apply underline shadow text-secondary underline-offset-2 hover:text-white;
+  }
+
+  .link-success {
+    @apply underline shadow text-success underline-offset-2 hover:text-white;
+  }
+
+  .link-danger {
+    @apply underline shadow text-danger underline-offset-2 hover:text-white;
+  }
+
+  .link-warning {
+    @apply underline shadow text-warning underline-offset-2 hover:text-white;
+  }
+
+  .link-info {
+    @apply underline shadow text-info underline-offset-2 hover:text-white;
+  }
+
+  .link-accent {
+    @apply underline shadow text-accent underline-offset-2 hover:text-white;
+  }
+}
