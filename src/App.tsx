@@ -1,6 +1,6 @@
 import Navbar from "./mock/Static/Navbar";
 import Footer from "./mock/Static/Footer";
-import Concept from "./mock/Setting/Concept";
+import Concept from "./mock/Statistics/Concept";
 
 const App = () => {
   return (

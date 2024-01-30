@@ -2,14 +2,14 @@ const Concept = () => {
   return (
     <div className="space-y-4">
       <div>
-        <h4 className="text-xl text-center">
+        <h2 className="text-xl text-center">
           <i className="bi bi-gear-fill"></i> Setting
-        </h4>
+        </h2>
       </div>
 
       <div>
         <div className="mb-4">
-          <h5 className="mb-2 text-lg text-success">Difficulty Modifiers</h5>
+          <h3 className="mb-2 text-lg text-success">Difficulty Modifiers</h3>
           <p>
             <i className="bi bi-arrow-right"></i> These modifiers change how the
             image would appear in your game.
@@ -45,7 +45,7 @@ const Concept = () => {
 
       <div>
         <div className="mb-4">
-          <h5 className="mb-2 text-lg text-danger">Danger Section!</h5>
+          <h3 className="mb-2 text-lg text-danger">Danger Section!</h3>
           <p>
             <i className="bi bi-arrow-right"></i> WARNING: This action is
             irreversible!

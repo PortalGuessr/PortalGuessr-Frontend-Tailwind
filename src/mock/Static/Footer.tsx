@@ -1,13 +1,13 @@
 const Footer = () => {
   return (
     <footer>
-      <div className="mt-4 space-y-2 text-center">
-        <h6 className="text-xl">
+      <div className="mt-8 space-y-2 text-center">
+        <h5 className="text-xl">
           Created By{" "}
           <a href="#" target="_blank" className="link-accent">
             XnonXte
           </a>
-        </h6>
+        </h5>
         <p className="text-lg">
           Join the{" "}
           <a href="#" target="_blank" className="link-primary">
