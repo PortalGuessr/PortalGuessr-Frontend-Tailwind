@@ -2,7 +2,7 @@ const Concept = () => {
   return (
     <div className="space-y-4">
       <div>
-        <a href="#" className="">
+        <a href="#">
           <i className="bi bi-arrow-left"></i> Quit Game
         </a>
       </div>
